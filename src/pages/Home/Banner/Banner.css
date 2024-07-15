@@ -1,0 +1,38 @@
+/* Banner.css */
+.kenburns-top-right {
+    -webkit-animation: kenburns-top-right 15s ease-out infinite both;
+    animation: kenburns-top-right 15s ease-out infinite both;
+  }
+  
+  @-webkit-keyframes kenburns-top-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+      transform: scale(1) translate(0, 0);
+    }
+    100% {
+      -webkit-transform: scale(1.5) translate(10%, -10%);
+      transform: scale(1.5) translate(10%, -10%);
+    }
+  }
+  
+  @keyframes kenburns-top-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+      transform: scale(1) translate(0, 0);
+    }
+    100% {
+      -webkit-transform: scale(1.5) translate(10%, -10%);
+      transform: scale(1.5) translate(10%, -10%);
+    }
+  }
+  
+  .swiper-slide img {
+    height: 80vh;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .h-80vh {
+    height: 80vh;
+  }
+  

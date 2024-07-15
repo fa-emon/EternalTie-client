@@ -1,0 +1,16 @@
+@keyframes slide-in {
+    0% {
+      transform: translateX(100%) translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-background {
+    animation: slide-in .7s ease forwards;
+  }
+
+  /* /----------------For Responsive ----------------/ */

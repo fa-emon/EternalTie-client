@@ -1,7 +1,17 @@
+import Banner from "../Banner/Banner";
+import HowItWorksSection from "../HowItWorksSection/HowItWorksSection";
+import PremiumSection from "../PremiumSection/PremiumSection";
+import SuccessCounterSection from "../SuccessCounterSection/SuccessCounterSection";
+import SuccessStorySection from "../SuccessStorySection/SuccessStorySection";
+
 const Home = () => {
   return (
     <div>
-      <h1>This is home page</h1>
+      <Banner></Banner>
+      <PremiumSection></PremiumSection>
+      <HowItWorksSection></HowItWorksSection>
+      <SuccessCounterSection></SuccessCounterSection>
+      <SuccessStorySection></SuccessStorySection>
     </div>
   );
 };

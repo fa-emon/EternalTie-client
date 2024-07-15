@@ -1,0 +1,28 @@
+/* Mobile phones (320px and up) */
+@media (min-width: 320px) {
+    .swiper-container {
+      width: 100%;
+    }
+  }
+  
+  /* Tablets (768px and up) */
+  @media (min-width: 768px) {
+    .swiper-container {
+      width: 100%;
+    }
+  }
+  
+  /* Laptops (1024px and up) */
+  @media (min-width: 1024px) {
+    .swiper-container {
+      width: 100%;
+    }
+  }
+  
+  /* Desktops (1440px and up) */
+  @media (min-width: 1440px) {
+    .swiper-container {
+      width: 100%;
+    }
+  }
+  

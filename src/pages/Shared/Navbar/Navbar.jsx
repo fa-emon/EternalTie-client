@@ -43,11 +43,11 @@ const Navbar = () => {
   return (
     <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center space-x-4 w-1/3">
+        <div className="flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/150"
+            src="https://i.ibb.co/f2Lg1Y1/wedding-rings.png"
             alt="Logo"
-            className="w-20 h-20"
+            className="w-10 h-10"
           />
           <button className="btn btn-ghost">
             <span className="text-lg font-bold">Matrimony Website</span>
@@ -60,28 +60,35 @@ const Navbar = () => {
             className="hover:underline"
             activeClassName="text-blue-500"
           >
-            <button className="btn btn-ghost">Home</button>
+            <button className="btn btn-ghost text-base">Home</button>
           </NavLink>
           <NavLink
             to="/biodatas"
             className="hover:underline"
             activeClassName="text-blue-500"
           >
-            <button className="btn btn-ghost">Biodatas</button>
+            <button className="btn btn-ghost text-base">Biodatas</button>
           </NavLink>
           <NavLink
             to="/about"
             className="hover:underline"
             activeClassName="text-blue-500"
           >
-            <button className="btn btn-ghost">About Us</button>
+            <button className="btn btn-ghost text-base">About Us</button>
           </NavLink>
           <NavLink
             to="/contact"
             className="hover:underline"
             activeClassName="text-blue-500"
           >
-            <button className="btn btn-ghost">Contact</button>
+            <button className="btn btn-ghost text-base">Contact</button>
+          </NavLink>
+          <NavLink
+            to="/login"
+            className="hover:underline"
+            activeClassName="text-blue-500"
+          >
+            <button className="btn btn-ghost text-base">Login</button>
           </NavLink>
         </div>
         <div className="md:hidden">
@@ -138,6 +145,14 @@ const Navbar = () => {
           onClick={toggleMenu}
         >
           <button className="btn btn-ghost w-full">Contact</button>
+        </NavLink>
+        <NavLink
+          to="/login"
+          className="block py-2"
+          activeClassName="text-blue-500"
+          onClick={toggleMenu}
+        >
+          <button className="btn btn-ghost w-full">Login</button>
         </NavLink>
       </div>
     </nav>
