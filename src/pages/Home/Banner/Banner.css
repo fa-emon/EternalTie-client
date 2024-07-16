@@ -35,4 +35,9 @@
   .h-80vh {
     height: 80vh;
   }
+
+/* Hides the blue pagination dots */
+.swiper-pagination-bullet {
+    background-color: transparent;
+  }
   

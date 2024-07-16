@@ -64,7 +64,7 @@ const HowItWorksSection = () => {
             </div>
           </div>
         </div>
-        <hr className="vertical-line" />
+        <div className="border"></div>
         <div className="">
           {/* {Register part} */}
           <div className="w-1/2 pb-[50px] flex justify-end pl-[70px]">
