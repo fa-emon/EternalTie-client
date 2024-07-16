@@ -1,6 +1,6 @@
 import Banner from "../Banner/Banner";
 import HowItWorksSection from "../HowItWorksSection/HowItWorksSection";
-import PremiumSection from "../PremiumSection/PremiumSection";
+import PremiumSection from "../PremiumSection/PremiumMember/PremiumMember";
 import SuccessCounterSection from "../SuccessCounterSection/SuccessCounterSection";
 import SuccessStorySection from "../SuccessStorySection/SuccessStorySection";
 
