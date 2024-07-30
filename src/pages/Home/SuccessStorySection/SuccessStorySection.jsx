@@ -34,7 +34,7 @@ const successStories = [
 const SuccessStorySection = () => {
   const [sortedStories, setSortedStories] = useState([]);
   const [sortDirection, setSortDirection] = useState("asc");
-  const [hoveredSlide, setHoveredSlide] = useState(null);
+  const [, setHoveredSlide] = useState(null);
   const swiperRef = useRef(null);
 
   useEffect(() => {
