@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* {---subHeading fonts---} */
+.subHeading-font{
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(196, 140, 70);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* {---heading fonts---} */
+.heading-font{
+    font-family: 'Titillium Web', sans-serif;
+    color: #66451c;
+    font-weight: 600;
+    font-size: 35px;
+}

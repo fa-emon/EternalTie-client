@@ -6,6 +6,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "./SuccessStorySection.css";
 import Rating from 'react-rating';
 import { FaStar } from 'react-icons/fa';
+import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 
 const successStories = [
   {
@@ -65,7 +66,9 @@ const SuccessStorySection = () => {
 
   return (
     <div>
-      <h1 className="text-3xl text-center mb-8">Success Story Section</h1>
+      <SectionTitle
+        heading={'Success Story Section'}
+      ></SectionTitle>
       <div className="flex justify-end items-center my-2">
         <label htmlFor="sort-select" className="mr-2">
           Sort by marriage date:

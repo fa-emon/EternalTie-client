@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import "./PremiumMember.css";
 import "./Responsive.css";
+import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 
 const biodata = [
   {
@@ -89,7 +90,9 @@ const PremiumSection = () => {
 
   return (
     <div>
-      <h1 className="text-center text-3xl">Premium Section</h1>
+      <SectionTitle
+        heading={'Premium Section'}
+      ></SectionTitle>
       <div className="flex justify-end items-center my-2">
         <label htmlFor="sort-select" className="mr-2">
           Sort by age:

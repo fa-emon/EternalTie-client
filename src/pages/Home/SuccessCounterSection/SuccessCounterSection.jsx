@@ -2,11 +2,14 @@ import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineGirl } from "react-icons/md";
 import { MdOutlineBoy } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
+import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 
 const SuccessCounterSection = () => {
   return (
     <div>
-      <h1 className="text-3xl text-center mb-8">Success Counter Section</h1>
+      <SectionTitle
+        heading={'Success Counter Section'}
+      ></SectionTitle>
       <div className="flex justify-between items-center px-10 full">
         <div className="border border-l-0 p-12 w-1/4">
           <div className="flex justify-center items-center space-x-4">

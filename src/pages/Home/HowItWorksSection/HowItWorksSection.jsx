@@ -1,9 +1,13 @@
+import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 import "./HowItWorksSection.css";
 
 const HowItWorksSection = () => {
   return (
     <div>
-      <h1 className="text-3xl text-center">How It Works Section</h1>
+      <SectionTitle
+        subHeading={'MOMENTS'}
+        heading={'HOW IT WORKS'}
+      ></SectionTitle>
       <div className="flex justify-center w-full">
         <div className="">
           {/* {icon part} */}
