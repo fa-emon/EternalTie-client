@@ -7,9 +7,7 @@ import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 const SuccessCounterSection = () => {
   return (
     <div>
-      <SectionTitle
-        heading={'Success Counter Section'}
-      ></SectionTitle>
+      <SectionTitle heading={"Success Counter Section"}></SectionTitle>
       <div className="flex justify-between items-center px-10 full">
         <div className="border border-l-0 p-12 w-1/4">
           <div className="flex justify-center items-center space-x-4">

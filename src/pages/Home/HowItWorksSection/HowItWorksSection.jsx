@@ -21,9 +21,9 @@ const HowItWorksSection = () => {
           {/* {Find your match} */}
           <div className="pb-[50px] flex justify-end pr-[70px]">
             <div className="w-full text-right">
-              <h1>Find your match</h1>
-              <p className="uppercase">Timing: 6.00pm</p>
-              <p className="inline-block w-1/3 text-justify">
+              <h1 className="worksHeading-font">Find your match</h1>
+              <p className="uppercase timing-font">Timing: 6.00pm</p>
+              <p className="inline-block w-1/3 text-justify worksGeneral-font">
                 Create your profile by filling in the necessary details, upload
                 your photo, and start connecting with potential matches!
               </p>
@@ -40,9 +40,9 @@ const HowItWorksSection = () => {
           {/* {Get Profile Information} */}
           <div className="pb-[50px] flex justify-end pr-[70px]">
             <div className="w-full text-right">
-              <h1>Get Profile Information</h1>
-              <p className="uppercase">Timing: 6.00pm</p>
-              <p className="inline-block w-1/3 text-justify">
+              <h1 className="worksHeading-font">Get Profile Information</h1>
+              <p className="uppercase timing-font">Timing: 6.00pm</p>
+              <p className="inline-block w-1/3 text-justify worksGeneral-font">
                 Create your profile by filling in the necessary details, upload
                 your photo, and start connecting with potential matches!
               </p>
@@ -59,9 +59,9 @@ const HowItWorksSection = () => {
           {/* {Getting Marriage} */}
           <div className="pb-[50px] flex justify-end pr-[70px]">
             <div className="w-full text-right">
-              <h1>Getting Marriage</h1>
-              <p className="uppercase">Timing: 6.00pm</p>
-              <p className="inline-block w-1/3 text-justify">
+              <h1 className="worksHeading-font">Getting Marriage</h1>
+              <p className="uppercase timing-font">Timing: 6.00pm</p>
+              <p className="inline-block w-1/3 text-justify worksGeneral-font">
                 Create your profile by filling in the necessary details, upload
                 your photo, and start connecting with potential matches!
               </p>
@@ -73,9 +73,9 @@ const HowItWorksSection = () => {
           {/* {Register part} */}
           <div className="w-1/2 pb-[50px] flex justify-end pl-[70px]">
             <div>
-              <h1>Register</h1>
-              <p className="uppercase">Timing: 6.00pm</p>
-              <p>
+              <h1 className="worksHeading-font">Register</h1>
+              <p className="uppercase timing-font">Timing: 6.00pm</p>
+              <p className="worksGeneral-font">
                 Create your profile by filling in the necessary details, upload
                 your photo, and start connecting with potential matches!
               </p>
@@ -92,9 +92,9 @@ const HowItWorksSection = () => {
           {/* {Send Interest part} */}
           <div className="w-1/2 pb-[50px] flex justify-end pl-[70px]">
             <div>
-              <h1>Send Interest</h1>
-              <p className="uppercase">Timing: 6.00pm</p>
-              <p>
+              <h1 className="worksHeading-font">Send Interest</h1>
+              <p className="uppercase timing-font">Timing: 6.00pm</p>
+              <p className="worksGeneral-font">
                 Create your profile by filling in the necessary details, upload
                 your photo, and start connecting with potential matches!
               </p>
@@ -111,9 +111,9 @@ const HowItWorksSection = () => {
           {/* {Start Meetup part} */}
           <div className="w-1/2 pb-[50px] flex justify-end pl-[70px]">
             <div>
-              <h1>Start Meetups</h1>
-              <p className="uppercase">Timing: 6.00pm</p>
-              <p>
+              <h1 className="worksHeading-font">Start Meetups</h1>
+              <p className="uppercase timing-font">Timing: 6.00pm</p>
+              <p className="worksGeneral-font">
                 Create your profile by filling in the necessary details, upload
                 your photo, and start connecting with potential matches!
               </p>

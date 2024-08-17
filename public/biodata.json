@@ -1,0 +1,303 @@
+[
+    {
+      "biodata_id": 1,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "permanent_division": "Dhaka",
+      "age": 25,
+      "occupation": "Student",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 2,
+      "biodata_type": "female",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Chattagram",
+      "age": 30,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 3,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "permanent_division": "Rangpur",
+      "age": 45,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 4,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "permanent_division": "Barisal",
+      "age": 35,
+      "occupation": "Housewife",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 5,
+      "biodata_type": "male",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Khulna",
+      "age": 40,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 6,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/6.jpg",
+      "permanent_division": "Maymansign",
+      "age": 23,
+      "occupation": "Student",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 7,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "permanent_division": "Sylhet",
+      "age": 27,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 8,
+      "biodata_type": "female",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Dhaka",
+      "age": 31,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 9,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/9.jpg",
+      "permanent_division": "Chattagram",
+      "age": 29,
+      "occupation": "Student",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 10,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/10.jpg",
+      "permanent_division": "Rangpur",
+      "age": 33,
+      "occupation": "Housewife",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 11,
+      "biodata_type": "male",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Barisal",
+      "age": 38,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 12,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/12.jpg",
+      "permanent_division": "Khulna",
+      "age": 26,
+      "occupation": "Student",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 13,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/13.jpg",
+      "permanent_division": "Maymansign",
+      "age": 32,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 14,
+      "biodata_type": "female",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Sylhet",
+      "age": 25,
+      "occupation": "Housewife",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 15,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "permanent_division": "Dhaka",
+      "age": 34,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 16,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/16.jpg",
+      "permanent_division": "Chattagram",
+      "age": 29,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 17,
+      "biodata_type": "male",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Rangpur",
+      "age": 42,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 18,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/18.jpg",
+      "permanent_division": "Barisal",
+      "age": 24,
+      "occupation": "Student",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 19,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/19.jpg",
+      "permanent_division": "Khulna",
+      "age": 36,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 20,
+      "biodata_type": "female",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Maymansign",
+      "age": 28,
+      "occupation": "Housewife",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 21,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/21.jpg",
+      "permanent_division": "Sylhet",
+      "age": 33,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 22,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/22.jpg",
+      "permanent_division": "Dhaka",
+      "age": 30,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 23,
+      "biodata_type": "male",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Chattagram",
+      "age": 45,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 24,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/24.jpg",
+      "permanent_division": "Rangpur",
+      "age": 29,
+      "occupation": "Student",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 25,
+      "biodata_type": "male",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Barisal",
+      "age": 34,
+      "occupation": "Job",
+      "biodata_status": "premium",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 26,
+      "biodata_type": "female",
+      "profile_image": "https://randomuser.me/api/portraits/women/26.jpg",
+      "permanent_division": "Khulna",
+      "age": 32,
+      "occupation": "Housewife",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 27,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/27.jpg",
+      "permanent_division": "Maymansign",
+      "age": 40,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 28,
+      "biodata_type": "female",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Sylhet",
+      "age": 23,
+      "occupation": "Student",
+      "biodata_status": "premium",
+      "marriage_status": false
+    },
+    {
+      "biodata_id": 29,
+      "biodata_type": "male",
+      "profile_image": "https://randomuser.me/api/portraits/men/29.jpg",
+      "permanent_division": "Dhaka",
+      "age": 37,
+      "occupation": "Job",
+      "biodata_status": "normal",
+      "marriage_status": true
+    },
+    {
+      "biodata_id": 30,
+      "biodata_type": "female",
+      "profile_image": "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
+      "permanent_division": "Chattagram",
+      "age": 26,
+      "occupation": "Housewife",
+      "biodata_status": "premium",
+      "marriage_status": true
+    }
+  ]
+  

@@ -7,57 +7,6 @@ import "./PremiumMember.css";
 import "./Responsive.css";
 import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 
-const biodata = [
-  {
-    id: 1,
-    type: "Male",
-    profileImage: "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
-    division: "Dhaka",
-    age: 23,
-    occupation: "Student",
-  },
-  {
-    id: 2,
-    type: "Female",
-    profileImage: "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
-    division: "Chattagram",
-    age: 27,
-    occupation: "Job",
-  },
-  {
-    id: 3,
-    type: "Male",
-    profileImage: "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
-    division: "Rangpur",
-    age: 40,
-    occupation: "House wife",
-  },
-  {
-    id: 4,
-    type: "Female",
-    profileImage: "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
-    division: "Barisal",
-    age: 30,
-    occupation: "Job",
-  },
-  {
-    id: 5,
-    type: "Male",
-    profileImage: "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
-    division: "Khulna",
-    age: 29,
-    occupation: "Student",
-  },
-  {
-    id: 6,
-    type: "Female",
-    profileImage: "https://i.ibb.co/SBf2NB2/pexels-photo-1898555.jpg",
-    division: "Maymansign",
-    age: 45,
-    occupation: "House wife",
-  },
-];
-
 const PremiumSection = () => {
   const [sortedBiodata, setSortedBiodata] = useState([]);
   const [sortDirection, setSortDirection] = useState("asc");
@@ -65,13 +14,22 @@ const PremiumSection = () => {
   const swiperRef = useRef(null);
 
   useEffect(() => {
-    const sortBiodata = () => {
-      const sortedData = [...biodata].sort((a, b) => {
-        return sortDirection === "asc" ? a.age - b.age : b.age - a.age;
-      });
-      setSortedBiodata(sortedData);
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          `http://localhost:5000/biodata/premium?limit=6&ageOrder=${sortDirection}`
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const data = await response.json();
+        setSortedBiodata(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
     };
-    sortBiodata();
+
+    fetchData();
   }, [sortDirection]);
 
   const handleSortChange = (e) => {
@@ -90,9 +48,7 @@ const PremiumSection = () => {
 
   return (
     <div>
-      <SectionTitle
-        heading={'Premium Section'}
-      ></SectionTitle>
+      <SectionTitle heading={"Premium Section"} />
       <div className="flex justify-end items-center my-2">
         <label htmlFor="sort-select" className="mr-2">
           Sort by age:
@@ -132,14 +88,16 @@ const PremiumSection = () => {
               >
                 <img
                   className="object-contain transform transition-transform duration-300 brightness-75"
-                  src={data.profileImage}
+                  src={data.profile_image}
                   alt=""
                 />
                 {hoveredSlide === index && (
                   <div className="absolute bottom-0 w-full bg-pink-500 bg-opacity-75 text-white p-4 flex flex-col items-center justify-center h-1/2 animated-background rounded-t-3xl">
-                    <p className="text-lg">Biodata Id: {data.id}</p>
-                    <p className="text-lg">Biodata Type: {data.type}</p>
-                    <p className="text-lg">Division: {data.division}</p>
+                    <p className="text-lg">Biodata Id: {data.biodata_id}</p>
+                    <p className="text-lg">Biodata Type: {data.biodata_type}</p>
+                    <p className="text-lg">
+                      Division: {data.permanent_division}
+                    </p>
                     <p className="text-lg">Age: {data.age}</p>
                     <p className="text-lg">Occupation: {data.occupation}</p>
                     <button className="btn mt-4">View Profile</button>

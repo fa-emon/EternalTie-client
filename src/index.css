@@ -13,8 +13,34 @@
 
 /* {---heading fonts---} */
 .heading-font{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Playfair Display", serif;
     color: #66451c;
     font-weight: 600;
     font-size: 35px;
+}
+                   /* how it works section  */
+/* {---wprksHeading fonts---} */
+.worksHeading-font{
+    font-family: "Playfair Display", serif;
+    color: #66451c;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+/* {---timing fonts---} */
+.timing-font{
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #eb0359;
+}
+
+/* {---worksGeneral fonts---} */
+.worksGeneral-font{
+    font-family: Poppins, sans-serif;
+    padding-top: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #66451c;
 }
